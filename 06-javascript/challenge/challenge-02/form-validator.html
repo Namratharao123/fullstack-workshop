@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action" class="form">
+        <label for="user">Username:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="user" placeholder="enter user name">
+        <span class="error" id="usermsg"></span>
+        <br>
+        <p></p>
+        <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email" placeholder="enter email">
+        <span class="error" id="emailmsg"></span>
+        <br>
+        <p></p>
+        <label for="pass">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" id="pass" placeholder="enter password">
+        <span class="error" id="passwordmsg"></span>
+        <br>
+        <p></p>
+        <label for="confirmPassword">Confirm Password:</label>&nbsp;&nbsp;
+        <input type="password" id="confirm" placeholder="confirm password">
+        <span id="confirmMsg" class="error"></span>
+        <br>
+        <p></p>
+        <button type="submit" id="submit" disabled>Submit</button>
+    </form>
+
+    <script src="form-validator.js"></script>
+</body>
+</html>
