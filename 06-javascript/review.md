@@ -1,13 +1,13 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-30 12:37
+**Review Date:** 2025-12-30 12:43
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 7
+**Files submitted:** 5
 
 ### Code Review
 
@@ -57,30 +57,7 @@
 
    **Score: 2/5**
 
-📄 **todo.html**
-   Path: `06-javascript/challenge/challenge-03/todo.html`
-   Lines: 0
-
-    - ❌ Missing `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
-    - ❌ Missing viewport meta tag
-    - 💡 Add `lang` attribute to `<html>` tag
-
-   **Score: 1/5**
-
-📄 **todo.js**
-   Path: `06-javascript/challenge/challenge-03/todo.js`
-   Lines: 0
-
-    - ✅ Uses `const`/`let` (no `var`)
-    - ✅ Uses strict equality (`===`)
-    - 💡 Consider using arrow functions
-    - 💡 Consider using template literals for string interpolation
-    - 💡 Consider using array methods (map, filter, reduce)
-
-   **Score: 2/5**
-
-### Topic Score: 17 / 30 (56%)
+### Topic Score: 14 / 20 (70%)
 
 ---
 
