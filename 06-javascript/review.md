@@ -1,13 +1,17 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-31 09:43
+**Review Date:** 2025-12-31 10:58
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 5
+**Files submitted:** 4
+
+### Relevance Check
+
+Unable to check - no exercise file
 
 ### Code Review
 
@@ -65,7 +69,7 @@
 
 **Status:** ⚠️ Not submitted
 
-Submit to: `06-javascript/challenge-01/`
+Submit to: `06-javascript/challenges/`
 
 ---
 
