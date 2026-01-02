@@ -1,7 +1,7 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2026-01-02 14:01
+**Review Date:** 2026-01-02 16:53
 
 ---
 
@@ -129,7 +129,7 @@ Unable to check - no exercise file
 
 **Status:** ⚠️ Not submitted
 
-Submit to: `06-javascript/challenges/`
+Submit to: `06-javascript/challenges/` or `06-javascript/challenge-01/`, `06-javascript/challenge-02/`, etc.
 
 ---
 
