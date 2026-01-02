@@ -1,3 +1,4 @@
+const Library=createLibrary();
 function createLibrary() {
 
     let books = [];
@@ -103,25 +104,24 @@ function createLibrary() {
         }
     };
 }
+const library = createLibrary();
 
-const cart = createShoppingCart();
+library.addBook({ isbn: '123', title: '1984', author: 'Orwell', copies: 3 });
+library.addBook({ isbn: '456', title: 'Dune', author: 'Herbert', copies: 2 });
 
-cart.addItem({ id: 1, name: 'Laptop', price: 999, quantity: 1 });
-cart.addItem({ id: 2, name: 'Mouse', price: 29, quantity: 2 });
-cart.addItem({ id: 1, name: 'Laptop', price: 999, quantity: 1 }); // Should increase quantity
+library.addMember({ id: 'M1', name: 'John', email: 'john@example.com' });
+library.addMember({ id: 'M2', name: 'Jane', email: 'jane@example.com' });
 
-console.log(cart.getItems());
-// [{ id: 1, name: 'Laptop', price: 999, quantity: 2 }, { id: 2, name: 'Mouse', price: 29, quantity: 2 }]
+library.borrowBook('M1', '123');
+library.borrowBook('M2', '123');
 
-cart.updateQuantity(1, 3);  // Set laptop quantity to 3
-cart.removeItem(2);         // Remove mouse
+console.log(library.getAvailableCopies('123')); // 1
 
-console.log(cart.getTotal());        // 2997
-console.log(cart.getItemCount());    // 3
-console.log(cart.isEmpty());         // false
+library.returnBook('M1', '123');
+console.log(library.getMemberHistory('M1'));
 
-cart.applyDiscount('SAVE10', 10);    // 10% discount
-console.log(cart.getTotal());        // 2697.30
+console.log(library.searchBooks('orwell'));
+console.log(library.getOverdueBooks());
 
-cart.clear();
-console.log(cart.isEmpty());         // true
+
+console.log(library.getAvailableCopies('123')); // 0
