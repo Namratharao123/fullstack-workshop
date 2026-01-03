@@ -1,13 +1,13 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-31 10:58
+**Review Date:** 2026-01-02 16:53
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 4
+**Files submitted:** 9
 
 ### Relevance Check
 
@@ -61,7 +61,67 @@ Unable to check - no exercise file
 
    **Score: 2/5**
 
-### Topic Score: 14 / 20 (70%)
+📄 **shopping-cart.js**
+   Path: `06-javascript/challenge/challenge-08/shopping-cart.js`
+   Lines: 107
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+📄 **library.js**
+   Path: `06-javascript/challenge/challenge-09/library.js`
+   Lines: 126
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+📄 **type-checker.js**
+   Path: `06-javascript/challenge/challenge-12/type-checker.js`
+   Lines: 44
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - ✅ Uses arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 3/5**
+
+📄 **validate-password.js**
+   Path: `06-javascript/challenge/challenge-13/validate-password.js`
+   Lines: 62
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+📄 **compose.js**
+   Path: `06-javascript/challenge/challenge-14/compose.js`
+   Lines: 58
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ❌ Uses loose equality (`==`) 1 times
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 1/5**
+
+### Topic Score: 24 / 45 (53%)
 
 ---
 
@@ -69,7 +129,7 @@ Unable to check - no exercise file
 
 **Status:** ⚠️ Not submitted
 
-Submit to: `06-javascript/challenges/`
+Submit to: `06-javascript/challenges/` or `06-javascript/challenge-01/`, `06-javascript/challenge-02/`, etc.
 
 ---
 

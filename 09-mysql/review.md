@@ -1,7 +1,7 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2025-12-31 10:58
+**Review Date:** 2026-01-02 16:53
 
 ---
 
@@ -29,7 +29,7 @@ Please complete the correct exercise and resubmit.
 
 **Status:** ⚠️ Not submitted
 
-Submit to: `09-mysql/challenges/`
+Submit to: `09-mysql/challenges/` or `09-mysql/challenge-01/`, `09-mysql/challenge-02/`, etc.
 
 ---
 
